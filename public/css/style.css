@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+li{
+    list-style-type: none;
+    color: aliceblue;
+}
+h1,h5,h2,h3{
+    color: aliceblue;
+    font-weight: bolder;
+    font-family: 'Amatic SC', cursive;
+}
+a,p{
+    color: aliceblue;
+}
+.welcome-container{
+    padding: 9rem .5rem;
+}
+.navbar-toggler{
+    border:1px solid aliceblue;
+    color: aliceblue;
+    font-size: .2rem;
+    padding: .25rem .5rem;
+}
+.top-page {
+    background-image: url('images/hero.jpg');
+    background-color:rgba(0, 0, 0, .6);
+    background-blend-mode:darken;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+#container{
+    background-image: url('images/search-container.jpg');
+    background-color:rgba(0, 0, 0, .8);
+    background-blend-mode:darken;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+.title{
+    text-align: center;
+    padding: 5rem;
+}
+.border-bottom{
+    margin: 0 auto;
+    width: 300px;
+    height: .25rem;
+    background-color: aliceblue;
+}
+.border-left{
+    margin: 1rem 0;
+    width: 300px;
+    height: .25rem;
+    background-color: aliceblue;
+}
+.home-search-button{
+    text-align: center;
+    margin-top: 2rem;
+}
+.search-columns{
+    justify-content: space-around;
+}
+.search-column{
+    margin-right: 1rem;
+}
+
+.about{
+    background-color: antiquewhite;
+    padding: 5rem;
+    text-align: center;
+}
+.section-title .border-bottom{
+    background-color: black;
+    width: 200px;
+    height: .15rem;
+}
+
+.detail p{
+    font-family: 'Amatic SC', cursive;
+    padding: 2rem 0;
+    color: rgba(74, 74, 74);
+}
+
+.row{
+    padding: 1rem .5rem;
+    margin: 0 auto;
+}
+.card{
+    background-color: rgba(0,0,0,.3);
+    color: white;
+    width: auto;
+    padding: 1rem 1.5rem;
+    margin: 1rem 1.5rem;
+}
+
+.form-group{
+    margin-top: 2rem;
+}
+
+.form-group select{
+    width: 8rem;
+}
